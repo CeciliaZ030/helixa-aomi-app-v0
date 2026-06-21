@@ -1,0 +1,6 @@
+name = "helixa"
+display_name = "Helixa AgentDNA"
+platform = "community"
+git = "https://github.com/aomi-labs/community-apps"
+public = true
+server_tags = ["staging"]
