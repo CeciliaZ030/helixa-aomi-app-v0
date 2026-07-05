@@ -1,0 +1,89 @@
+{
+  "id": "dep_139182861_r95c9343d2c_981be466148d",
+  "status": "pr_created",
+  "source": {
+    "installation_id": 139182861,
+    "repository_id": 1288525615,
+    "repository_link": "ceciliaz030/helixa-aomi-app-v0",
+    "owner_repo_name": "ceciliaz030/helixa-aomi-app-v0",
+    "ref": "981be466148dc4c0c4a97dceab01941d3add6699",
+    "commit_hash": "981be466148dc4c0c4a97dceab01941d3add6699",
+    "aomi_toml_paths": [
+      "helixa/aomi.toml"
+    ],
+    "app_source_id": 1548
+  },
+  "platform": {
+    "platform": "community",
+    "repository": "aomi-labs/community-apps",
+    "source_branch": "ceciliaz030/helixa-aomi-app-v0/139182861/981be466148d",
+    "deploy_branch": "publish",
+    "commit_hash": "8cec380cd23dbd3bba1e41c353bdd4de9cc0f770",
+    "pr_number": 82,
+    "pr_url": "https://github.com/aomi-labs/community-apps/pull/82",
+    "ci_status": "no_ci",
+    "ci_url": "https://github.com/aomi-labs/community-apps/actions?query=branch%3Aceciliaz030/helixa-aomi-app-v0/139182861/981be466148d",
+    "apps": [
+      {
+        "name": "helixa",
+        "path": "apps/139182861/r95c9343d2c/helixa",
+        "aomi_toml_path": "helixa/aomi.toml",
+        "release_tag": "apps-139182861-r95c9343d2c-helixa-981be466148d",
+        "target": "x86_64-unknown-linux-gnu",
+        "activated": true
+      }
+    ]
+  },
+  "state": {
+    "deployed": true,
+    "ci_passed": true,
+    "activated": true
+  },
+  "last_activation": {
+    "status": "activating",
+    "platform": "community",
+    "target": {
+      "kind": "release_tags",
+      "value": [
+        "apps-139182861-r95c9343d2c-helixa-981be466148d"
+      ],
+      "platform_repo": "aomi-labs/community-apps",
+      "promoted": [
+        {
+          "name": "helixa",
+          "release_tag": "apps-139182861-r95c9343d2c-helixa-981be466148d",
+          "source_branch": "ceciliaz030/helixa-aomi-app-v0/139182861/981be466148d",
+          "activated_commit_hash": "8cec380cd23dbd3bba1e41c353bdd4de9cc0f770",
+          "live_commit_hash": "74a940e55247d8e684a95fe29951f3be9960d6b4",
+          "ci_status": "passed",
+          "ci_url": "https://github.com/aomi-labs/community-apps/actions?query=branch%3Aceciliaz030/helixa-aomi-app-v0/139182861/981be466148d",
+          "release_assets": [
+            "aomi-plugins-apps-139182861-r95c9343d2c-helixa-981be466148d-x86_64-unknown-linux-gnu.tar.gz",
+            "aomi-release.json",
+            "manifest.json"
+          ],
+          "release_asset_digests": {
+            "aomi-plugins-apps-139182861-r95c9343d2c-helixa-981be466148d-x86_64-unknown-linux-gnu.tar.gz": "sha256:50661387a727b62b378db559fcac2353e0bd28c4ca0b4fa16af4ac4dee360f26",
+            "aomi-release.json": "sha256:07d3a431750de68d3b82c7d7a0cb1ae4cc986dba7efc438edf6089e165ee7171",
+            "manifest.json": "sha256:bc9ef09738cbef869187bda31e36fdeeec4fe75db9be5666ae42dda4c66a85c3"
+          },
+          "activation_status": "promoted"
+        }
+      ]
+    },
+    "apps": [
+      {
+        "application_id": 2936793,
+        "name": "helixa",
+        "path": "apps/139182861/r95c9343d2c/helixa",
+        "release_tag": "apps-139182861-r95c9343d2c-helixa-981be466148d",
+        "is_active": true,
+        "artifact_ready": true,
+        "loaded": true,
+        "source_branch": "ceciliaz030/helixa-aomi-app-v0/139182861/981be466148d",
+        "live_commit_hash": "74a940e55247d8e684a95fe29951f3be9960d6b4",
+        "activation_status": "promoted"
+      }
+    ]
+  }
+}
